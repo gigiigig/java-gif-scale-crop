@@ -1,11 +1,11 @@
 This is a simple library to scale and crop animated gif in Java.
-Is used on my other prject java chat.
+Is used on my other project java chat.
 
-Use is really simple, GifUtil is class that contain the core method,
+Use is really simple, GifUtil is class that contains the core method,
 so GifUtil.gifInputToOutput(File source, File destination)
-is the function that take a gif file input and write that to file dastination.
-The function scale image, mantaining aspect ratio,
- at the max sides width MAX_IMAGE_DIMENSION , 
+is the function that takes a gif file input and write that to file destination.
+The function scales image, mantaining aspect ratio,
+at the max sides width MAX_IMAGE_DIMENSION , 
 that is a static value writed directly on GifUtil class,
 edit the code if you need to pass size as paramanter.
 
